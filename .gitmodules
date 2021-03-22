@@ -10,3 +10,6 @@
 [submodule "demo-tutorial"]
 	path = demo-tutorial
 	url = https://github.com/sdsc-hpc-training-dev/demo-tutorial
+[submodule "agg-tutorial"]
+	path = agg-tutorial
+	url = https://github.com/sdsc-hpc-training-dev/agg-tutorial.git
