@@ -28,7 +28,9 @@ exclude:
   - package.json
   - package-lock.json
   - webpack.config.js
-  - jekyll-rtd-theme.gemspec  
+  - jekyll-rtd-theme.gemspec
+  - agg-tutorial/TOC.md
+  - agg-tutorial/expanse-101
 
 kramdown:
   syntax_highlighter_opts:
