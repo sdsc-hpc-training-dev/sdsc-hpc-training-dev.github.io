@@ -29,6 +29,7 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
+  - agg-tutorial
   
 
 kramdown:
