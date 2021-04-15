@@ -7,3 +7,6 @@
 [submodule "demo-tutorial"]
 	path = demo-tutorial
 	url = https://github.com/sdsc-hpc-training-dev/demo-tutorial
+[submodule "expanse-101-refactor"]
+	path = expanse-101-refactor
+	url = https://github.com/sdsc-hpc-training-dev/expanse-101-refactor
