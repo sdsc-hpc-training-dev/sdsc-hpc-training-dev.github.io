@@ -1,4 +1,4 @@
-# SDSC HPC Training for Advanced Computing Users.
+# SDSC HPC Training for Advanced Computing Users. -- DEV SITE
 
 ## This GitHub repo will provide materials to support SDSC training classes and workshops.
 
