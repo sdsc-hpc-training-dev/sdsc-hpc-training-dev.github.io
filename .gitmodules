@@ -1,6 +1,3 @@
-[submodule "expanse-101"]
-	path = expanse-101
-	url = https://github.com/sdsc-hpc-training-org/expanse-101.git
 [submodule "expanse-101-refactor"]
 	path = expanse-101-refactor
 	url = https://github.com/sdsc-hpc-training-dev/expanse-101-refactor
