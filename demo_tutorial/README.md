@@ -2,7 +2,7 @@
 <hr>
 # TEST1:  EMBEDDING AGENDA
 
-<iframe width="560" height="315" src="https://github.com/sdsc-hpc-training-dev/sdsc-hpc-training-dev.github.io/blob/master/demo_agenda/agenda.md" frameborder="0" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.sdsc.edu/~mthomas/demo_agenda/" frameborder="0" allowfullscreen> </iframe>
 
 <hr>
 #TEST 2:
