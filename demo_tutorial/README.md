@@ -1,8 +1,8 @@
-#demo here
+#demo here. -- V2
 <hr>
 # TEST1:  EMBEDDING AGENDA
 
-<iframe src="https://github.com/sdsc-hpc-training-dev/demo-tutorial/blob/main/demo_agenda"></iframe>
+<iframe width="560" height="315" src="https://github.com/sdsc-hpc-training-dev/sdsc-hpc-training-dev.github.io/blob/master/demo_agenda/agenda.md" frameborder="0" allowfullscreen> </iframe>
 
 <hr>
 #TEST 2:
