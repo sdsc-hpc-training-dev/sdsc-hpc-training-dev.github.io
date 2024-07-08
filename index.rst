@@ -6,9 +6,18 @@
 Welcome to ICICLE Software Component Catalog's documentation!
 =============================================================
 
-Release 2023-06
-===============
-.. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+Test 1?
+---------------------
 
+.. toctree::
+   :maxdepth: 2
+
+   README.md
+
+Accounts
+---------
+
+.. toctree::
+   :maxdepth: 2
+
+   /demo-agenda/README.md
