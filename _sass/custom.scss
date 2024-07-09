@@ -1,0 +1,104 @@
+.sidebar-wrap {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+
+    .header {
+        background-color: #343a40;
+        color: #ffffff;
+        padding: 1rem;
+        text-align: center;
+
+        .title {
+            a {
+                color: #ffffff;
+                font-size: 1.25rem;
+                text-decoration: none;
+                display: block;
+                padding: 0.5rem;
+                border-radius: 0.25rem;
+            }
+        }
+
+        .version {
+            background-color: #6c757d;
+            color: #ffffff;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            display: block;
+        }
+
+        .search {
+            margin-top: 1rem;
+
+            input {
+                font-size: 0.9rem;
+                padding: 0.5rem;
+                width: 100%;
+                border: 1px solid #ccc;
+                border-radius: 0.25rem;
+            }
+        }
+    }
+
+    .toctree {
+        padding: 1rem;
+
+        .toc-link {
+            font-size: 0.9rem;
+            color: #343a40;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #f0f0f0;
+            }
+        }
+
+        details {
+            summary {
+                font-size: 0.9rem;
+                cursor: pointer;
+                outline: none;
+                display: block;
+                padding: 0.5rem;
+                transition: all 0.3s ease;
+                position: relative;
+
+                &::-webkit-details-marker {
+                    display: none;
+                }
+
+                &::after {
+                    content: '+';
+                    position: absolute;
+                    top: 50%;
+                    right: 0.5rem;
+                    transform: translateY(-50%);
+                }
+
+                &[open]::after {
+                    content: '-';
+                }
+            }
+
+            ul {
+                font-size: 0.85rem;
+                padding-left: 1rem;
+                list-style-type: none;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}

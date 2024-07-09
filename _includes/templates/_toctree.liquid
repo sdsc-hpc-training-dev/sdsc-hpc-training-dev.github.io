@@ -23,13 +23,9 @@
         {%- endcapture %}
 
         <li class="toc level-{{ level }} {{ current }}" data-sort="{{ item.sort }}" data-level="{{ level }}">
-            <a class="d-flex flex-items-baseline {{ current }}" href="{{ item.url | relative_url }}">
+            <a class="d-flex flex-items-baseline {{ current }} toc-link" href="{{ item.url | relative_url }}">
                 <i class="fa fa-file-alt"></i> 
-                {%- if item.sort -%}
-                    {{ item.sort }}. {{ item.title | default: item.name }}
-                {%- else -%}
-                    {{ item.title | default: item.name }}
-                {%- endif -%}
+                {{ item.title | default: item.name }}
             </a>
         </li>
     {%- endfor -%}
@@ -38,7 +34,17 @@
     {%- for workdir in workdir_dirs -%}
         {%- assign level = workdir | append: "temp" | replace_first: "/", "" | split: "/" | size | minus: 2 %}
         <li class="toc level-{{ level }}">
-            {% include templates/_toctree.liquid %}
+            <details>
+                <summary>
+                    <a class="d-flex flex-items-baseline" href="#">
+                        <i class="fa fa-folder"></i> 
+                        {{ workdir.title | default: workdir.url }}
+                    </a>
+                </summary>
+                <ul class="pl-3 list-unstyled">
+                    {% include templates/_toctree.liquid %}
+                </ul>
+            </details>
         </li>
     {%- endfor -%}
 </ul>
